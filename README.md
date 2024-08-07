@@ -59,22 +59,17 @@
 
 ![얼굴인식(고연령)](https://github.com/user-attachments/assets/4b958a0f-c660-45fe-9a85-dd853cd460ea)
 
-- ------⭐ 태그별 메뉴 분류 -------------------- ⭐AI 메뉴 추천 -------------------- ⭐나라별 언어변경-------
+- ------⭐ 태그별 메뉴 분류 ------------------ ⭐AI 메뉴 추천 ------------------- ⭐나라별 언어변경-------
 
-![ezgif-5-8e25182522](https://github.com/user-attachments/assets/6a2e975a-3dc5-4517-8d62-d7b505edaed8)
-![ezgif-5-8e25182522](https://github.com/user-attachments/assets/6a2e975a-3dc5-4517-8d62-d7b505edaed8)
-![ezgif-5-8e25182522](https://github.com/user-attachments/assets/6a2e975a-3dc5-4517-8d62-d7b505edaed8)
+![태그별 메뉴 분류](https://github.com/user-attachments/assets/9d139424-a754-4ad1-99f8-0ef202081a64)|
+![AI 메뉴 추천](https://github.com/user-attachments/assets/c03249fc-a46b-4589-9f1c-b3a4386d9493)|
+![언어별 메뉴](https://github.com/user-attachments/assets/cf5efe55-b1f0-40bf-b578-f3e333b02d2f)
 
-  
-![태그별 메뉴 분류](https://github.com/user-attachments/assets/897c96e7-13f3-472d-8f15-0948b4a89dd5)
-![AI 메뉴 추천](https://github.com/user-attachments/assets/d137dab1-d062-4af9-bb6a-b7ef10be56d7)
-![언어별 메뉴](https://github.com/user-attachments/assets/d9733cfa-c971-47ee-8c85-cbe055aefdd4)
+- ------------⭐결제 --------------------- ⭐고연령 음성인식 ---------------- ⭐각 키오스크 화면 전환-----
 
-- ------------⭐결제 ------------------------- ⭐고연령 음성인식 ------------------- ⭐각 키오스크 화면 전환-----
-  
-![결제](https://github.com/user-attachments/assets/6a9463d4-19f0-4cbb-9ac9-d150e65fb2f7)
-![고연령 음성인식](https://github.com/user-attachments/assets/039fa916-11a9-44a0-85ad-4c8f197f9b14)
-![키오스크화면전환](https://github.com/user-attachments/assets/cdccbd68-fbf3-44d7-b1c7-bc26937c18fe)
+![결제](https://github.com/user-attachments/assets/f476b6d6-0877-4669-bfe2-0571030fb5d1)|
+![고연령 음성인식](https://github.com/user-attachments/assets/30b94cb9-89a5-4738-8025-e48b31b1b31f)|
+![키오스크화면전환](https://github.com/user-attachments/assets/1e1f576b-bb08-4acf-99bb-2f1d3c0a3266)
 
 <br>
 
