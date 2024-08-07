@@ -11,9 +11,9 @@
 - 음성 인식을 통한 AI 추천으로 고객에게 음성을 입력 받아 맞춤 메뉴 제안
 
 
-
 <br>
 
+## 💡function
 - Django admin customization: 유저, 메뉴, 해시태그 CRUD 
 - 이용자 input 처리: opencv, gTTS, gSTT를 js에서 이용
 - 얼굴 인식 기능: opencv로 얼굴 인식 후 gpt로 나이를 추정
@@ -38,6 +38,39 @@
 - **Version Control** : Git, GitHub
 - **Communication** : Zep, Slack, Figma, Zoom
   
+<br>
+
+## 🖥️Preview
+
+
+- ⭐로그인
+  
+![로그인](https://github.com/user-attachments/assets/7bd48f2d-fecd-49b3-8003-315307faf77f)
+
+- ⭐메뉴 등록
+  
+![메뉴추가](https://github.com/user-attachments/assets/50464aae-d43d-4921-a855-8e394a8425b7)
+
+- ⭐얼굴인식(일반)
+
+![얼굴인식(일반인)](https://github.com/user-attachments/assets/0229a614-8ca4-4c42-81ee-d1cab77b2324)
+
+- ⭐얼굴인식(고연령
+
+![얼굴인식(고연령)](https://github.com/user-attachments/assets/4b958a0f-c660-45fe-9a85-dd853cd460ea)
+
+- --------⭐ 태그별 메뉴 분류 ---------------------------- ⭐AI 메뉴 추천 ---------------------------- ⭐나라별 언어변경----------
+  
+![태그별 메뉴 분류](https://github.com/user-attachments/assets/897c96e7-13f3-472d-8f15-0948b4a89dd5) ㅣ
+![AI 메뉴 추천](https://github.com/user-attachments/assets/d137dab1-d062-4af9-bb6a-b7ef10be56d7) ㅣ
+![언어별 메뉴](https://github.com/user-attachments/assets/d9733cfa-c971-47ee-8c85-cbe055aefdd4)
+
+- --------------⭐결제 --------------------------------- ⭐고연령 음성인식 --------------------------- ⭐각 키오스크 화면 전환--------
+  
+![결제](https://github.com/user-attachments/assets/6a9463d4-19f0-4cbb-9ac9-d150e65fb2f7) ㅣ
+![고연령 음성인식](https://github.com/user-attachments/assets/039fa916-11a9-44a0-85ad-4c8f197f9b14) ㅣ
+![키오스크화면전환](https://github.com/user-attachments/assets/cdccbd68-fbf3-44d7-b1c7-bc26937c18fe)
+
 <br>
 
 ## 📝 Project
