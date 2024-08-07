@@ -14,10 +14,6 @@
 
 <br>
 
-## 👨‍🏫 Developement Team (Pair Programming)
-**박현준, 박소영, 박지현, 홍민서**
-
-
 - Django admin customization: 유저, 메뉴, 해시태그 CRUD 
 - 이용자 input 처리: opencv, gTTS, gSTT를 js에서 이용
 - 얼굴 인식 기능: opencv로 얼굴 인식 후 gpt로 나이를 추정
@@ -137,91 +133,8 @@
 - admin page내의 group을 새로 생성하여 staff가 메뉴 CRUD에만 접근가능하도록 제한한다
 
 <br><br>
-<hr>
-
-## 📌 Key Features
-
-### 1. Kiosk User
-
-#### (1) Age Group Identification and Customized Kiosk UI through Facial Recognition
-
-   - The kiosk, using its built-in camera, takes a photo of the kiosk user and estimates the user's age from the photo.
-
-   - Depending on whether the estimated age indicates an older user or a younger user, the kiosk order UI will be customized accordingly.
-
-
-<br>
-
-#### (2) Differentiation in Order Steps for Older and Younger Users
-
-
-#### (2-1) Older Users
-
-1. As soon as the order page for older users loads, a guide message is played and the voice recognition begins.
-
-2. Based on the voice data received, the AI menu recommendation system displays suggested menus.
-
-3. The top recommended menu appears in a popup, and the user can choose to add this menu to the cart or view other recommended menus.
-
-
-
-#### (2-2) Younger Users (Voice Recognition Order or Touch-screen Order)
-
-1. By default, users can use the typical tap-to-order method.
-
-2. Users can activate the AI menu recommendation feature using voice recognition by tapping the voice recognition button, as instructed by the guide message.
-
-3. Unlike the order process for older users, voice recognition does not start automatically; users can turn the voice recognition feature on or off as needed during the ordering process.
-
-
-
-<br>
-
-
-
-#### (2-3) Assigning Order Numbers Post Payment
-
-   - Both of the order process of older and younger user go through this process
-
-   - Order numbers that are given to the customers are reset daily.
-
-
-<br>
-
-
-### 2. Store Owner (Staff)
-
-#### (1) Menu CRUD
-
-- Predefined hashtags need to be set before menu creation.
-
-- When creating a menu, the menu name, price, hashtags, and images must be uploaded.
-
-  
-
-#### (2) Order Status Related (work in progress)
-
-
-
-<br><br>
-
-
-
-### 3. Admin (Superuser)
-
-#### (1) Staff CRUD and Menu CRUD
-
-- The admin can create, view, edit, and delete staff accounts as well as the menus created by staff members.
-
-#### (2) Assigning Permissions to Staff
-
-- Through the admin page, a new group can be created so that staff members are restricted to only performing menu CRUD operations.
-
-<br>
      
 
 ## 📄 ERD:
 ![SivlerLining (2)](https://github.com/billyhyunjun/Silver-Lining/assets/159408752/7ef6181b-7b38-4a7c-ae2f-6d6d880f0197)
 
-# silverlining
-# silverlining
