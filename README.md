@@ -55,7 +55,7 @@
 
 ![얼굴인식(일반인)](https://github.com/user-attachments/assets/0229a614-8ca4-4c42-81ee-d1cab77b2324)
 
-- ⭐얼굴인식(고연령
+- ⭐얼굴인식(고연령)
 
 ![얼굴인식(고연령)](https://github.com/user-attachments/assets/4b958a0f-c660-45fe-9a85-dd853cd460ea)
 
