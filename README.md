@@ -61,14 +61,14 @@
 
 - ------⭐ 태그별 메뉴 분류 ------------------ ⭐AI 메뉴 추천 ------------------- ⭐나라별 언어변경-------
 
-![태그별 메뉴 분류](https://github.com/user-attachments/assets/9d139424-a754-4ad1-99f8-0ef202081a64)|
-![AI 메뉴 추천](https://github.com/user-attachments/assets/c03249fc-a46b-4589-9f1c-b3a4386d9493)|
+![태그별 메뉴 분류](https://github.com/user-attachments/assets/9d139424-a754-4ad1-99f8-0ef202081a64) |
+![AI 메뉴 추천](https://github.com/user-attachments/assets/c03249fc-a46b-4589-9f1c-b3a4386d9493) |
 ![언어별 메뉴](https://github.com/user-attachments/assets/cf5efe55-b1f0-40bf-b578-f3e333b02d2f)
 
 - ------------⭐결제 --------------------- ⭐고연령 음성인식 ---------------- ⭐각 키오스크 화면 전환-----
 
-![결제](https://github.com/user-attachments/assets/f476b6d6-0877-4669-bfe2-0571030fb5d1)|
-![고연령 음성인식](https://github.com/user-attachments/assets/30b94cb9-89a5-4738-8025-e48b31b1b31f)|
+![결제](https://github.com/user-attachments/assets/f476b6d6-0877-4669-bfe2-0571030fb5d1) |
+![고연령 음성인식](https://github.com/user-attachments/assets/30b94cb9-89a5-4738-8025-e48b31b1b31f) |
 ![키오스크화면전환](https://github.com/user-attachments/assets/1e1f576b-bb08-4acf-99bb-2f1d3c0a3266)
 
 <br>
