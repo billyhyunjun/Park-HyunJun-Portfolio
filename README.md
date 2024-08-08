@@ -1,6 +1,5 @@
 # 👩‍💻Project: Silver Lining
-### "Every cloud has a silver lining."
-#### 키오스크를 사용하기 어려운 고령층 소비자에게도 접근이 용이한 키오스크 AI 서비스.
+### 키오스크를 사용하기 어려운 고령층 소비자에게도 접근이 용이한 키오스크 AI 서비스.
 
 <br>
 
@@ -8,17 +7,14 @@
 #### 나이듦에 따른 신체의 노화가 단점으로 받아들여질 수 있는 상황에서 긍정적으로 생각해보자는 취지를 담은 프로젝트. 
 - 키오스크 서비스에 접근하기 어려운 고령의 고객이 키오스크를 쉽게 이용할 수 있도록 구성한 서비스
 - 얼굴 인식을 통해 키오스크를 이용하려는 사용자의 나이를 자동으로 파악하여 대상 연령대에 맞춘 UI/UX로 긍정적인 이용 경험 유도
-- 음성 인식을 통한 AI 추천으로 고객에게 음성을 입력 받아 맞춤 메뉴 제안
-
 
 <br>
 
-## 💡function
+## 💡Function
 - Django admin customization: 유저, 메뉴, 해시태그 CRUD 
-- 이용자 input 처리: opencv, gTTS, gSTT를 js에서 이용
-- 얼굴 인식 기능: opencv로 얼굴 인식 후 gpt로 나이를 추정
-- 음성 인식 기능: STT로 입력받은 음성을 gpt로 처리하고 받은 응답을 TTS로 출력
-- AI 메뉴 추천 모델: 받은 음성을 기반으로 gpt-4o 로 메뉴 추천
+- 이용자 input 처리: Java Script를 통한 데이터 전송
+- 얼굴 인식 기능: Opencv 얼굴 인식 후 이미지를 통한 나이 추정
+- 음성 인식 기능: STT로 입력 받은 데이터를 AI답변 및 메뉴 추천
 - 연령별 맞춤 템플릿: 고령층과 비고령층의 UI/UX와 기능의 차별화를 통해 연령 맞춤 서비스 제공
 
 <br>
@@ -75,12 +71,13 @@
 
 ## 📝 Project
 
-  - 시연영상 : https://www.youtube.com/watch?v=Q7jmeQ_tOPE&t=42s
+  - 시연 영상 : [유튜브 시연영상](https://www.youtube.com/watch?v=Q7jmeQ_tOPE&t=42s)을 통하여 확인
 
-  - Notion : https://www.notion.so/teamsparta/8-silver-lining-f9ee581e81e8456c8d78729434c5ca06
+  - 아이디어 회의 : 개발 기획 단계 및 아이디를 논의하기 위해 [피그마](https://www.figma.com/board/CUporczK2kYaCbjQQIDoVO/final-project?node-id=0-1&t=99pB1pcpflZp4QJg-0)를 활용하여 작성
 
-  - Figma : https://www.figma.com/board/CUporczK2kYaCbjQQIDoVO/final-project?node-id=0-1&t=99pB1pcpflZp4QJg-0
+  - 트러블 슈팅 : 문제점 보완 및 개선을 위해 [노션](https://teamsparta.notion.site/8-silver-lining-f9ee581e81e8456c8d78729434c5ca06)을 활용하여 기록
 
+![image](https://github.com/user-attachments/assets/2ded4c7c-f96a-43a2-a67f-cfaa198e72af)
 
 <br>
 
@@ -132,10 +129,10 @@
 
 #### (2) 고령층과 비고령층 주문단계 차별화
 #### (2-1) 고령층
-1. 고령층 주문 페이지 로딩과 동시에 출력되는 안내멘트 이후에 음성인식
-2. 입력받은 음성데이터를 반영하여 AI가 추천메뉴를 화면에 출력
-3. 가장 추천되는 메뉴가 팝업창에 나타나며 사용자는 이 메뉴를 장바구니에 넣거나 다른 추천 메뉴를 선택가능
-4. 메뉴 재추천, 장바구니 기능(추가, 수정, 삭제), 결제하기 기능을 모두 음성인식으로 조절이 가능하도록 구현
+1. 고령층에 맞추어 버튼 및 글자의 크기를 기존 대비 확대 및 단순화하여 편의성 확대
+2. 터치를 최소화 하기 위하여 음성데이터 기반으로 AI가 추천메뉴를 화면에 출력
+3. 메뉴 이용에 불필요한 부분을 제외, 고객의 니즈에 필요한 부분만 출력하여 오입력 방지
+4. 재추천, 장바구니(추가, 수정, 삭제), 결제하기 기능을 모두 음성인식으로 동작하도록 구현
 
 #### (2-2) 비고령층 (일반적인 키오스크 터치 주문 + 음성인식 메뉴 추천)
 1. 기본적으로는 일반적인 키오스크와 동일하게 사용 가능
