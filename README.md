@@ -156,7 +156,11 @@
 
 ### 1. 언어 변경기능
 
-![언어변경](https://github.com/user-attachments/assets/7ea8b165-8757-47c8-bb4d-cae158d3610b)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cf5efe55-b1f0-40bf-b578-f3e333b02d2f" alt="언어별 메뉴" width="30%">
+</p>
+
 
 ```python
 # 언어를 변경하는 함수입니다.
