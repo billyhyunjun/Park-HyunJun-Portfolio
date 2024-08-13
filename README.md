@@ -39,33 +39,67 @@
 ## 🖥️Preview
 
 
-- ⭐로그인
+<p align="center">
+  <strong>⭐로그인</strong>
+</p>
   
-![로그인](https://github.com/user-attachments/assets/7bd48f2d-fecd-49b3-8003-315307faf77f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7bd48f2d-fecd-49b3-8003-315307faf77f" alt="로그인">
+</p>
 
-- ⭐메뉴 등록
+<p align="center">
+  <strong>⭐메뉴 등록</strong>
+</p>
   
-![메뉴추가](https://github.com/user-attachments/assets/50464aae-d43d-4921-a855-8e394a8425b7)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/50464aae-d43d-4921-a855-8e394a8425b7" alt="메뉴추가">
+</p>
 
-- ⭐얼굴인식(일반)
+<p align="center">
+  <strong>⭐얼굴인식(일반)</strong>
+</p>
 
-![얼굴인식(일반인)](https://github.com/user-attachments/assets/0229a614-8ca4-4c42-81ee-d1cab77b2324)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0229a614-8ca4-4c42-81ee-d1cab77b2324" alt="얼굴인식(일반인)">
+</p>
 
-- ⭐얼굴인식(고연령)
+<p align="center">
+  <strong>⭐얼굴인식(고연령)</strong>
+</p>
 
-![얼굴인식(고연령)](https://github.com/user-attachments/assets/4b958a0f-c660-45fe-9a85-dd853cd460ea)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4b958a0f-c660-45fe-9a85-dd853cd460ea" alt="얼굴인식(고연령)">
+</p>
 
-- ------⭐ 태그별 메뉴 분류 ------------------ ⭐AI 메뉴 추천 ------------------- ⭐나라별 언어변경-------
+<p align="center">
+  ⭐ 태그별 메뉴 분류 ⭐ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ⭐ AI 메뉴 추천 ⭐ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ⭐ 나라별 언어변경 ⭐
+</p>
 
-![태그별 메뉴 분류](https://github.com/user-attachments/assets/9d139424-a754-4ad1-99f8-0ef202081a64) |
-![AI 메뉴 추천](https://github.com/user-attachments/assets/c03249fc-a46b-4589-9f1c-b3a4386d9493) |
-![언어별 메뉴](https://github.com/user-attachments/assets/cf5efe55-b1f0-40bf-b578-f3e333b02d2f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9d139424-a754-4ad1-99f8-0ef202081a64" alt="태그별 메뉴 분류" width="30%">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/c03249fc-a46b-4589-9f1c-b3a4386d9493" alt="AI 메뉴 추천" width="30%">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/cf5efe55-b1f0-40bf-b578-f3e333b02d2f" alt="언어별 메뉴" width="30%">
+</p>
 
-- ------------⭐결제 --------------------- ⭐고연령 음성인식 ---------------- ⭐각 키오스크 화면 전환-----
+<p align="center">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ⭐ 결제 ⭐ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ⭐ 고연령 음성인식 ⭐ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  ⭐ 각 키오스크 화면 전환 ⭐
+</p>
 
-![결제](https://github.com/user-attachments/assets/f476b6d6-0877-4669-bfe2-0571030fb5d1) |
-![고연령 음성인식](https://github.com/user-attachments/assets/30b94cb9-89a5-4738-8025-e48b31b1b31f) |
-![키오스크화면전환](https://github.com/user-attachments/assets/1e1f576b-bb08-4acf-99bb-2f1d3c0a3266)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f476b6d6-0877-4669-bfe2-0571030fb5d1" alt="결제" width="30%">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/30b94cb9-89a5-4738-8025-e48b31b1b31f" alt="고연령 음성인식" width="30%">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/1e1f576b-bb08-4acf-99bb-2f1d3c0a3266" alt="키오스크화면전환" width="30%">
+</p>
+
 
 <br>
 
@@ -117,6 +151,96 @@
     구현 결과: Redis를 사용하여 elder_menu.html의 장바구니 기능을 구현
 <br>
 
+## 💻Technical Description
+
+### 1. 언어 변경기능
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cf5efe55-b1f0-40bf-b578-f3e333b02d2f" alt="언어별 메뉴">
+</p>
+
+```python
+# 언어를 변경하는 함수입니다.
+def switch_language(request):
+    lang = request.GET.get('lang', settings.LANGUAGE_CODE)
+    if lang:
+        # 언어 변경
+        translation.activate(lang)
+        # 언어 쿠키 설정
+        response = redirect(request.META.get('HTTP_REFERER', '/'))
+        response.set_cookie(settings.LANGUAGE_COOKIE_NAME, lang)
+        return response
+    return redirect(request.META.get('HTTP_REFERER', '/'))
+```
+
+💡 Django의 기본 번역기능을 이용하여 각 언어에 맞추어 변경 가능
+
+### 2. AI 추천기능
+
+```python
+class AIbot(APIView):
+    def post(request):
+        # POST 요청을 처리하는 메소드입니다.
+        # AI 봇에게 입력된 텍스트를 전달하고 응답을 받습니다.
+        input_text = request.data.get('inputText')
+        current_user = request.user
+        message, recommended_menu = bot(input_text, current_user)
+        return Response({'responseText': message, 'recommended_menu': recommended_menu})
+```
+
+💡 POST 입력시 bot.py 내부 함수를 통하여 추천 메뉴 및 메세지 생성 후 return
+
+<details>
+<summary> AI 프롬프트 </summary>
+
+## 프롬프트
+```python
+def get_recommended_menus(client, input_text, current_user):
+    system_data = f"""
+        You are considered a staff member related to {category_text}.
+        Our store offers the following menu items: {menu}.
+        Additionally, we use the following hashtags in our store: {hashtags}.
+        """
+
+    system_output = f"""
+        The format of the data I desire as a result is:
+        "Recommended Menu: [menu_name]"
+        For the "Recommended Menu" section, select three options that are most closely related to the customer's request and rank them accordingly.
+        The main format of recommended menu should be "Recommended Menu: menu_name, menu_name, menu_name".
+        The output of recommended menus must include three items. If fulfilling three items is difficult to achieve, go through the menu table to find the closest menu possible.
+        It would be easier for you to consider hashtags when finding related menu.
+        When there are more than one keyword that you take into account, you should prioritize the keyword that is related to the menu.
+        For example, when the customer asks for 'iced coffee', you should consider the menu that is 'coffee', rather than 'iced' beverages.
+        """
+    completion = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[
+            {"role": "system", "content": system_data},
+            {"role": "system", "content": system_output},
+            {"role": "user", "content": input_text},
+        ],
+    )
+
+    ai_response = completion.choices[0].message.content
+    recommended_menu = []
+
+    try:
+        for line in ai_response.split('\n'):
+            line = line.strip()  
+            if line.startswith('Recommended Menu:'):
+                recommended_menu = line.split('Recommended Menu: ')[1].strip().split(', ')
+                break  
+
+    except IndexError:
+        recommended_menu = []
+
+    return recommended_menu
+```
+
+</details>
+
+
+<br>
 
 ## 📌 Key Features
 
