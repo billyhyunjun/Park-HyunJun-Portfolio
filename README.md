@@ -151,13 +151,12 @@
     구현 결과: Redis를 사용하여 elder_menu.html의 장바구니 기능을 구현
 <br>
 
+
 ## 💻Technical Description
 
 ### 1. 언어 변경기능
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/cf5efe55-b1f0-40bf-b578-f3e333b02d2f" alt="언어별 메뉴">
-</p>
+![언어변경](https://github.com/user-attachments/assets/7ea8b165-8757-47c8-bb4d-cae158d3610b)
 
 ```python
 # 언어를 변경하는 함수입니다.
@@ -188,10 +187,14 @@ class AIbot(APIView):
         return Response({'responseText': message, 'recommended_menu': recommended_menu})
 ```
 
-💡 POST 입력시 bot.py 내부 함수를 통하여 추천 메뉴 및 메세지 생성 후 return
+💡 POST 입력시 bot.py 내부 bot 함수를 통하여 추천 메뉴 및 메세지 생성 후 return
+
+<br>
 
 <details>
-<summary> AI 프롬프트 </summary>
+<summary> 📗 AI 프롬프트 </summary>
+
+<br>
 
 ## 프롬프트
 ```python
@@ -235,6 +238,157 @@ def get_recommended_menus(client, input_text, current_user):
         recommended_menu = []
 
     return recommended_menu
+```
+
+</details>
+
+### 3. 얼굴 인식 기능
+
+```javascript
+    function submitForm(imageData) {
+        // FormData 객체 생성
+        var formData = new FormData();
+
+        // 이미지 데이터를 FormData 객체에 추가
+        var blob = dataURItoBlob(imageData);
+        formData.append('faceImageData', blob, 'face_image.jpeg');
+
+        // CSRF 토큰 가져오기
+        const csrftoken = getCookie('csrftoken');
+
+        // 이미지 데이터가 있는 경우 AJAX 요청 보냄
+        $.ajax({
+            url: '/orders/face_recognition/',
+            method: 'POST',
+            headers: {'X-CSRFToken': csrftoken},
+            data: formData,
+            processData: false,  // jQuery가 데이터를 쿼리 문자열로 변환하는 것을 방지
+            contentType: false,   // jQuery가 contentType을 설정하는 것을 방지
+            success: function (response) {
+                // 서버 응답을 성공적으로 받은 후에 수행할 작업
+                console.log('Success:', response);
+                // 얼굴 나이 확인
+                var ageNumber = response.age_number;
+                // 나이에 따라 페이지 리디렉션
+                if (ageNumber >= 60) {
+                    window.location.href = "{% url 'orders:elder_start' %}";
+                } else {
+                    window.location.href = "{% url 'orders:menu' %}";
+                }
+            },
+            error: function (xhr, status, error) {
+                console.error('Error:', error);
+                // 오류 처리
+            }
+        });
+    }
+```
+
+💡AJAX를 사용하여 이미지 데이터 전송
+
+```python
+@csrf_exempt
+def face_recognition(request):
+    if request.method == 'POST' and 'faceImageData' in request.FILES:
+        # Get uploaded image
+        uploaded_image = request.FILES['faceImageData']
+        age_number = face(uploaded_image)
+
+        return JsonResponse({'age_number': age_number})
+    return HttpResponse("Please upload an image.")
+```
+
+💡 bot.py 내부의 face 함수를 이용 나이값 계산
+
+<br>
+
+<details>
+<summary> 📗 얼굴인식 AI </summary>
+
+<br>
+
+```python
+def face(uploaded_image):
+    # Read the image using OpenCV
+    image_data = uploaded_image.read()
+    nparr = np.frombuffer(image_data, np.uint8)
+    frame = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
+
+    # 얼굴 인식을 위한 분류기를 로드합니다.
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+
+    # 흑백 이미지로 변환합니다.
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+    # 얼굴을 감지합니다.
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+
+    if len(faces) > 0:
+        # 이미지를 저장하고 base64로 변환합니다.
+        image_path = "face.jpg"
+        cv2.imwrite(image_path, frame)
+
+        with open(image_path, "rb") as image_file:
+            encoded_image = base64.b64encode(image_file.read()).decode('utf-8')
+
+        base64_image = f"data:image/jpeg;base64,{encoded_image}"
+
+        # OpenAI API에 요청합니다.
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {settings.OPEN_API_KEY}"
+        }
+
+        instruction = """
+                                    Although age can be difficult to predict, please provide an approximate number for how old the person in the photo appears to be. 
+                                    Please consider that Asians tend to look younger than you might think.
+                                    And Please provide an approximate age in 10-year intervals such as teens, 20s, 30s, 40s, 50s, 60s, 70s, or 80s.
+                                    When you return the value, remove the 's' in the end of the age interval.
+                                    For example, when you find the person to be in their 20s, just return the value as 20.
+                                    Please return the inferred age in the format 'Estimated Age: [inferred age]'.
+                                    """
+
+        payload = {
+            "model": "gpt-4o",
+            "messages": [
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "text",
+                            "text": instruction,
+                        },
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": base64_image
+                            }
+                        }
+                    ]
+                }
+            ],
+            "max_tokens": 300
+        }
+        # OpenAI API로 요청을 보냅니다.
+        response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
+
+        try:
+            os.remove(image_path)
+            print(f"{image_path} 이미지가 삭제되었습니다.")
+
+        except FileNotFoundError:
+            print(f"{image_path} 이미지를 찾을 수 없습니다.")
+
+        # OpenAI API에서 반환된 응답을 파싱합니다.
+        ai_answer = response.json()
+        print("ai_answer", ai_answer)
+        # 추정된 나이를 가져옵니다.
+        age_message = ai_answer["choices"][0]['message']['content']
+        age = age_message.split("Estimated Age: ")[1].strip()
+        age_number = int(age)
+        print("당신의 얼굴나이 : ", age_number)
+        return age_number
+    return 20
 ```
 
 </details>
