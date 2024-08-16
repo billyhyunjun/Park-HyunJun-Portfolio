@@ -1,5 +1,3 @@
-주소를 통한 포트폴리오 확인 : [포트폴리오 주소](https://github.com/billyhyunjun/Park-HyunJun-Portfolio)
-
 # 👨‍💻 박현준
 
 <table>
