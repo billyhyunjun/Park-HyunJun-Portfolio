@@ -84,6 +84,7 @@
 - 얼굴 인식 기능: Opencv 얼굴 인식 후 이미지를 통한 나이 추정
 - 음성 인식 기능: STT로 입력 받은 데이터를 AI답변 및 메뉴 추천
 - 연령별 맞춤 템플릿: 고령층과 비고령층의 UI/UX와 기능의 차별화를 통해 연령 맞춤 서비스 제공
+- AWS를 이용 웹 서비스 제공 
 
 <br>
 
@@ -99,8 +100,9 @@
 - **Web Framework** : DJANGO 4.2
 - **Database** : SQLite (for development and testing), PostgreSQL (for Release)
 - **IDE** : Visual Studio Code, Pycharm
-- **Version Control** : Git, GitHub
+- **Version Control** : Git, GitHub, Docker
 - **Communication** : Zep, Slack, Figma, Zoom
+- **Server** : AWS(EC2)
   
 <br>
 
