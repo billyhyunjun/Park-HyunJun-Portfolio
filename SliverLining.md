@@ -448,4 +448,9 @@ def face(uploaded_image):
 #### (2) staff에 permission 부여
 - admin page내의 group을 새로 생성하여 staff가 메뉴 CRUD에만 접근가능하도록 제한한다
 
+<br>
+
+## 📄 ERD:
+![SivlerLining (2)](https://github.com/billyhyunjun/Silver-Lining/assets/159408752/7ef6181b-7b38-4a7c-ae2f-6d6d880f0197)
+
 <br><br>
