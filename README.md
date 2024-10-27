@@ -17,18 +17,7 @@
 
 
 ## 📝 About Me
-
-**신중한 판단과 협업으로 목표를 달성하는 개발자**
-
-1. 새로운 아이디어를 프로젝트에 반영할 때는 아이디어에서 오는 이점보다는 해당 아이디어를 반영함으로 발생할 수 있는 문제점이나 프로젝트의 개발 취지와의 적합성을 먼저 고려합니다.
-2. 기획부터 개발, 배포까지 하나의 웹페이지를 완성하기 위해 각 파트의 필요를 찾아가며 배우는 것이 중요하다는 것을 배웠습니다.
-3. 팀장을 경험하면서 적극적인 협력이 팀원과 함께 하는 개발에 얼마나 중요한지 깨달았습니다.
-
-
-
-
-
-
+코드캠프에서 파이썬을 활용한 웹 개발을 배우며, 프로젝트의 안정성을 높이기 위한 테스트 케이스를 팀원들과 함께 작성해보았습니다. 이를 통해 프로젝트의 안정성을 유지하는 테스트 계획과 실행의 중요성을 깨달으며 QA에 관심을 가지게 되었습니다. 또한 협업 툴인 JIRA를 교육받으며, 체계적인 QA 경험을 쌓고자 하는 목표도 생겼습니다.
 
 
 
@@ -37,6 +26,7 @@
 <p>
   <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=django&logoColor=white">
+  <img src="https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white">
 </p>
 
 #### Have Used
@@ -55,9 +45,14 @@
 <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
 </p>
 
+# 📚 테스트 계획서 및 테스트 케이스
+- **테스트 대상**: www.gatherhere.dev
+- **테스트 계획서 및 테스트 케이스 작성**: https://parallel-radiator-f96.notion.site/www-gatherhere-dev-12ccafd9e0a080bf82b7db50af00c6d9?pvs=4
+  
 # 📒 Project
 
 ## Silver Lining
+- **링크**: [Silver Lining 프로젝트 설명](SliverLining.md)
 - **기간**: 2024.05.13 ~ 2024.06.13
 - **핵심 기능**: 고연령자를 위한 키오스크 AI 도우미 서비스
 - **개발 목적** : 키오스크 사용에 어려움이 있는 고연령자에게 AI를 통한 도움을 주기 위해
@@ -81,6 +76,7 @@
 <br>
 
 ## SpartaMarket
+- **링크**: [SpartaMarket 프로젝트 설명](SpartaMarket.md)
 - **기간**: 2024.04.15 ~ 2024.04.19
 - **핵심 기능**: 게시글 작성 시 포인트로 카드 뽑기 및 상점 판매/구입을 위한 커뮤니티
 - **개발 목적** : 일반적이 커뮤니티 게시판에 카드 뽑기라는 수집요소 기능을 추가하여 글 작성에 흥미 유발
