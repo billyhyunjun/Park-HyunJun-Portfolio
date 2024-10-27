@@ -92,11 +92,5 @@
 - 카드 수집 및 판매를 통한 계정에 데이터베이스 관리
 - ManyToManyField, ForeignKey를 이용한 모델 관계 설정
 
-<br>
 
-
-     
-
-## 📄 ERD:
-![SivlerLining (2)](https://github.com/billyhyunjun/Silver-Lining/assets/159408752/7ef6181b-7b38-4a7c-ae2f-6d6d880f0197)
 
