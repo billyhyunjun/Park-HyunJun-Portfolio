@@ -46,10 +46,26 @@
 </p>
 
 # 📚 테스트 계획서 및 테스트 케이스
-- **테스트 대상**: www.gatherhere.dev
-- **테스트 계획서 및 테스트 케이스 작성**: https://parallel-radiator-f96.notion.site/www-gatherhere-dev-12ccafd9e0a080bf82b7db50af00c6d9?pvs=4
+- **테스트 대상**: SpartaMarket
+- **테스트 계획서 및 테스트 케이스 작성**: https://parallel-radiator-f96.notion.site/sparta_market-12ecafd9e0a080628f70d3314c058259?pvs=4
   
 # 📒 Project
+
+## SpartaMarket
+- **링크**: [SpartaMarket 프로젝트 설명](SpartaMarket.md)
+- **기간**: 2024.04.15 ~ 2024.04.19
+- **핵심 기능**: 게시글 작성 시 포인트로 카드 뽑기 및 상점 판매/구입을 위한 커뮤니티
+- **개발 목적** : 일반적이 커뮤니티 게시판에 카드 뽑기라는 수집요소 기능을 추가하여 글 작성에 흥미 유발
+- **기술 스택** : Python, Django, Github 외 프론트 엔드
+- **담당 역할** :
+1. Django RESTful API 개발
+- 게시글 작성, 카드수집, 카드판매 API 구현
+2. ORM 활용
+- 카드 수집 및 판매를 통한 계정에 데이터베이스 관리
+- ManyToManyField, ForeignKey를 이용한 모델 관계 설정
+
+
+<br>
 
 ## Silver Lining
 - **링크**: [Silver Lining 프로젝트 설명](SliverLining.md)
@@ -73,20 +89,8 @@
 - 프로젝트 기획 및 회고 노트 작성
 - 회의를 주도하여 팀원 개발 진행도 공유
 
-<br>
 
-## SpartaMarket
-- **링크**: [SpartaMarket 프로젝트 설명](SpartaMarket.md)
-- **기간**: 2024.04.15 ~ 2024.04.19
-- **핵심 기능**: 게시글 작성 시 포인트로 카드 뽑기 및 상점 판매/구입을 위한 커뮤니티
-- **개발 목적** : 일반적이 커뮤니티 게시판에 카드 뽑기라는 수집요소 기능을 추가하여 글 작성에 흥미 유발
-- **기술 스택** : Python, Django, Github 외 프론트 엔드
-- **담당 역할** :
-1. Django RESTful API 개발
-- 게시글 작성, 카드수집, 카드판매 API 구현
-2. ORM 활용
-- 카드 수집 및 판매를 통한 계정에 데이터베이스 관리
-- ManyToManyField, ForeignKey를 이용한 모델 관계 설정
+
 
 
 
