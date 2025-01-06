@@ -48,21 +48,7 @@
   
 # 📒 Project
 
-## SpartaMarket
-- **링크**: [SpartaMarket 프로젝트 설명](SpartaMarket.md)
-- **기간**: 2024.04.15 ~ 2024.04.19
-- **핵심 기능**: 게시글 작성 시 포인트로 카드 뽑기 및 상점 판매/구입을 위한 커뮤니티
-- **개발 목적** : Python의 기초적인 지식과 Django 프레임워크를 이용하여 기획부터 서버 배포까지 수행하므로 웹 개발에 필요한 단계를 직접 경험하기 위해
-- **기술 스택** : Python, Django, Github 외 프론트 엔드
-- **담당 역할** :
-1. Django RESTful API 개발
-- 게시글 작성, 카드수집, 카드판매 API 구현
-2. ORM 활용
-- 카드 수집 및 판매를 통한 계정에 데이터베이스 관리
-- ManyToManyField, ForeignKey를 이용한 모델 관계 설정
 
-
-<br>
 
 ## Silver Lining
 - **링크**: [Silver Lining 프로젝트 설명](SliverLining.md)
@@ -85,6 +71,24 @@
 5. 팀장 역할 수행
 - 프로젝트 기획 및 회고 노트 작성
 - 회의를 주도하여 팀원 개발 진행도 공유
+
+<br>
+
+## SpartaMarket
+- **링크**: [SpartaMarket 프로젝트 설명](SpartaMarket.md)
+- **기간**: 2024.04.15 ~ 2024.04.19
+- **핵심 기능**: 게시글 작성 시 포인트로 카드 뽑기 및 상점 판매/구입을 위한 커뮤니티
+- **개발 목적** : Python의 기초적인 지식과 Django 프레임워크를 이용하여 기획부터 서버 배포까지 수행하므로 웹 개발에 필요한 단계를 직접 경험하기 위해
+- **기술 스택** : Python, Django, Github 외 프론트 엔드
+- **담당 역할** :
+1. Django RESTful API 개발
+- 게시글 작성, 카드수집, 카드판매 API 구현
+2. ORM 활용
+- 카드 수집 및 판매를 통한 계정에 데이터베이스 관리
+- ManyToManyField, ForeignKey를 이용한 모델 관계 설정
+
+
+
 
 
 
