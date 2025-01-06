@@ -45,9 +45,6 @@
 <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
 </p>
 
-# 📚 테스트 계획서 및 테스트 케이스
-- **테스트 대상**: SpartaMarket
-- **테스트 계획서 및 테스트 케이스 작성**: https://parallel-radiator-f96.notion.site/sparta_market-12ecafd9e0a080628f70d3314c058259?pvs=4
   
 # 📒 Project
 
@@ -88,6 +85,12 @@
 5. 팀장 역할 수행
 - 프로젝트 기획 및 회고 노트 작성
 - 회의를 주도하여 팀원 개발 진행도 공유
+
+
+
+# 📚 테스트 계획서 및 테스트 케이스
+- **테스트 대상**: SpartaMarket
+- **테스트 계획서 및 테스트 케이스 작성**: https://parallel-radiator-f96.notion.site/sparta_market-12ecafd9e0a080628f70d3314c058259?pvs=4
 
 
 
